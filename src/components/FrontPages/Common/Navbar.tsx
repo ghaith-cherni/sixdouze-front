@@ -33,15 +33,15 @@ const Navbar: React.FC = () => {
               <Image
                 src="images\sixdouze_logo_elsi_font.png"
                 alt="logo"
-                width={200}
-                height={50}
+                width={300}
+                height={100}
               />
               <Image
                 src="images\sixdouze_logo_elsi_font.png"
                 className="d-none"
                 alt="logo"
-                width={142}
-                height={38}
+                width={300}
+                height={100}
               />
             </Link>
 

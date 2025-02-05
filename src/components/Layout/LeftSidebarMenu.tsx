@@ -69,12 +69,11 @@ const LeftSidebarMenu: React.FC<LeftSidebarProps> = ({ toggleActive }) => {
           <Box className="logo">
             <Link href="/dashboard/ecommerce/">
               <Image
-                src="/images/logo-icon.svg"
+                src="\images\sixdouze_logo_elsi_font.png"
                 alt="logo-icon"
-                width={26}
-                height={26}
+                width={200}
+                height={50}
               />
-              <Typography component={"span"}>Trezo</Typography>
             </Link>
           </Box>
 
