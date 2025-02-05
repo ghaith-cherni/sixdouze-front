@@ -79,14 +79,7 @@ const HeroBanner: React.FC = () => {
             </Link>
           </Box>
 
-          <div className="banner-image text-center">
-            <Image
-              src="/images/front-pages/dashboard.png"
-              alt="dashboard-image"
-              width={848}
-              height={585}
-            />
-          </div>
+
 
           {/* Shape Images */}
           <div className="shape1">
