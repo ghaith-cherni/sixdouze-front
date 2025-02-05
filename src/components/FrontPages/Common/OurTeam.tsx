@@ -15,6 +15,17 @@ const OurTeam: React.FC = () => {
           pb: { xs: "60px", sm: "60px", md: "80px", lg: "100px", xl: "150px" },
         }}
       >
+                  <Box className="section-title text-center">
+        
+                    <Typography
+                      variant="h2"
+                      sx={{
+                        fontSize: { xs: "24px", md: "28px", lg: "34px", xl: "36px" },
+                      }}
+                    >
+                      Recommended Salons
+                    </Typography>
+                  </Box>
         <Box
           sx={{
             maxWidth: {
@@ -30,20 +41,7 @@ const OurTeam: React.FC = () => {
             zIndex: "1",
           }}
         >
-          <div className="section-title text-center">
-            <div className="sub-title">
-              <span className="text-purple">Our Team</span>
-            </div>
-            <Typography
-              variant="h2"
-              sx={{
-                fontSize: { xs: "24px", md: "28px", lg: "34px", xl: "36px" },
-              }}
-            >
-              Introducing Our Exceptional Team. Meet the Minds Driving Our
-              Success
-            </Typography>
-          </div>
+
 
           <Swiper
             spaceBetween={25}

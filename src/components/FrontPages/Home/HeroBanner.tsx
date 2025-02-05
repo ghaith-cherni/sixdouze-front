@@ -74,12 +74,10 @@ const HeroBanner: React.FC = () => {
       </div>
 
             <Link href="/dashboard/ecommerce/" className="fp-banner-button">
-              <i className="material-symbols-outlined">person</i>
-              Get started - It is free
-            </Link>
+              <i className="material-symbols-outlined">search</i>
+              Search           
+               </Link>
           </Box>
-
-
 
           {/* Shape Images */}
           <div className="shape1">

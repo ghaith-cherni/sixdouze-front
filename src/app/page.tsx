@@ -18,13 +18,13 @@ export default function Home() {
 
         <HeroBanner />
 
+        <OurTeam />
+
         <KeyFeatures />
 
         <Widgets />
 
         <Testimonials />
-
-        <OurTeam />
 
         <FaqContent />
 

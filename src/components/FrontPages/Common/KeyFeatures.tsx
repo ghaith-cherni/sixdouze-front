@@ -28,16 +28,14 @@ const KeyFeatures: React.FC = () => {
           }}
         >
           <Box className="section-title text-center">
-            <div className="sub-title">
-              <span className="text-purple">Key Features</span>
-            </div>
+
             <Typography
               variant="h2"
               sx={{
                 fontSize: { xs: "24px", md: "28px", lg: "34px", xl: "36px" },
               }}
             >
-              Recommended
+              Recommended Salons
             </Typography>
           </Box>
 
