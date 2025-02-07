@@ -6,10 +6,7 @@ import React, { useEffect } from "react";
 import { AppBar, Toolbar, IconButton, Box } from "@mui/material";
 import Tooltip from "@mui/material/Tooltip";
 import SearchForm from "./SearchForm";
-import Notifications from "./Notifications";
-import Profile from "./Profile";
-import FullscreenButton from "./FullscreenButton";
-import AppsMenu from "./AppsMenu";
+ import FullscreenButton from "./FullscreenButton";
 import ChooseLanguage from "./ChooseLanguage/index";
 import ControlPanel from "../ControlPanel";
 
@@ -74,8 +71,7 @@ const TopNavbar: React.FC<TopNavbarProps> = ({ toggleActive }) => {
               <SearchForm />
 
               {/* AppsMenu */}
-              <AppsMenu />
-            </Box>
+             </Box>
 
             <Box
               sx={{
@@ -92,14 +88,8 @@ const TopNavbar: React.FC<TopNavbarProps> = ({ toggleActive }) => {
               {/* FullscreenButton */}
               <FullscreenButton />
 
-              {/* Notifications */}
-              <Notifications />
-
-              {/* Profile */}
-              <Profile />
-
-              {/* ControlPanel */}
               <ControlPanel />
+              
             </Box>
           </Toolbar>
         </AppBar>

@@ -68,7 +68,8 @@ const HeroBanner: React.FC = () => {
           onChange={(e) => setDate(e.target.value)}
           className="p-2 border rounded"
         />
-        <button onClick={handleSearch} className="bg-blue-500 text-white px-4 py-2 rounded">
+        <button onClick={handleSearch} className="fp-banner-button">
+          <i className="material-symbols-outlined">search</i>
           Search
         </button>
       </div>

@@ -26,8 +26,8 @@ import theme from "@/theme";
 import LayoutProvider from "@/providers/LayoutProvider";
 
 export const metadata = {
-  title: "Trezo - React Nextjs 15+ Material Design Admin Dashboard Template",
-  description: "React Nextjs 15+ Material Design Admin Dashboard Template",
+  title: "SixDouze",
+  description: "Search for beauty salons where you are",
 };
 
 export default function RootLayout(props: { children: React.ReactNode }) {
