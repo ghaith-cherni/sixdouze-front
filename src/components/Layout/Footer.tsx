@@ -16,16 +16,16 @@ const Footer: React.FC = () => {
         }}
       >
         <Typography>
-          © <span className="text-purple">Trezo</span> is Proudly Owned by{" "}
+          © <span className="text-purple">SixDouze</span> designed by{" "}
           <a
-            href="https://envytheme.com/"
+            href="https://cherni/"
             target="_blank"
             className="text-primary"
             style={{
               textDecoration: "none",
             }}
           >
-            EnvyTheme
+            Ghaith Cherni
           </a>
         </Typography>
       </Box>
