@@ -61,7 +61,7 @@ const HeroBanner: React.FC = () => {
       className="fp-banner-area"
       sx={{
         mb: { xs: "60px", sm: "60px", md: "80px", lg: "100px", xl: "150px" },
-        paddingBottom: "30px",
+         marginBottom: "-50px",
       }}
 
     >
@@ -86,7 +86,7 @@ const HeroBanner: React.FC = () => {
           sx={{
             mx: "auto",
             textAlign: "center",
-            marginTop: "-20px",
+            marginTop: "-30px",
           }}
         >
           <h1>Find The Best Beauty Salons Near You</h1>
@@ -102,6 +102,7 @@ const HeroBanner: React.FC = () => {
               padding: "10px", // Add some padding
               boxShadow: "0 4px 30px rgba(0, 0, 0, 0.1)", // Subtle shadow
               border: "2px solid rgba(255, 255, 255, 0.51)", // Light border 
+              paddingBottom: "-30px"
               }}
               >
           <Grid
