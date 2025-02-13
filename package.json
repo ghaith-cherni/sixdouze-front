@@ -24,6 +24,7 @@
     "@mui/x-date-pickers": "^7.10.0",
     "@mui/x-tree-view": "^7.11.1",
     "apexcharts": "^4.0.0",
+    "axios": "^1.7.9",
     "boxicons": "^2.1.4",
     "dayjs": "^1.11.11",
     "next": "^15.0.2",
