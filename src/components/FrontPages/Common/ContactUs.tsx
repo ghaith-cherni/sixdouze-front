@@ -50,11 +50,6 @@ const ContactUs: React.FC = () => {
             <Grid item xs={12} sm={12} md={12} lg={6}>
               <div className="fp-contact-content">
                 <div className="section-title">
-                  <div className="sub-title">
-                    <span className="d-inline-block position-relative text-purple">
-                      Contact Us
-                    </span>
-                  </div>
                   <Typography
                     variant="h2"
                     sx={{

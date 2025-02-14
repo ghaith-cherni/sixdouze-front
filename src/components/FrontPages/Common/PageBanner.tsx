@@ -22,6 +22,7 @@ const PageBanner: React.FC<Props> = ({ pageTitle }) => {
             xl: "195px",
           },
           pb: { xs: "60px", sm: "70px", md: "100px", lg: "140px", xl: "150px" },
+          mb : "-60px",
         }}
       >
         <Box
