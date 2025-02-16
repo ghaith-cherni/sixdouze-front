@@ -33,22 +33,24 @@ const Footer: React.FC = () => {
                   <Image
                     src="/images/logo-big.svg"
                     alt="logo"
-                    width={100}
-                    height={26}
+                    width={200}
+                    height={50}
                   />
                   <Image
                     src="/images/white-logo-big.svg"
                     className="d-none"
                     alt="logo"
-                    width={142}
-                    height={38}
+                    width={200}
+                    height={100}
                   />
                 </Link>
 
                 <p>
-                  With customizable dashboards tailored to your needs,
-                  collaborate effortlessly with your team and stay ahead with
-                  real-time updates.
+                Discover beauty, effortlessly. Whether you want to book 
+                unforgettable beauty and wellness experiences or you're 
+                a business owner looking to expand, We connect 
+                clients with top beauty professionals. 
+                Your beauty, your business—elevated!
                 </p>
 
                 <div className="socials">
@@ -70,19 +72,19 @@ const Footer: React.FC = () => {
 
             <Grid item xs={12} sm={6} md={6} lg={3} className="fp-grid-item">
               <div className="single-footer-widget">
-                <h3>Our Products</h3>
+                <h3>Our Services</h3>
                 <ul className="custom-links">
                   <li>
-                    <Link href="#"> Dashboard</Link>
+                    <Link href="#"> For professionals</Link>
                   </li>
                   <li>
-                    <Link href="#">Tagus Admin</Link>
+                    <Link href="#">Add more</Link>
                   </li>
                   <li>
-                    <Link href="#">eCademy LMS</Link>
+                    <Link href="#">Add more</Link>
                   </li>
                   <li>
-                    <Link href="#">Admash Template</Link>
+                    <Link href="#">Add more</Link>
                   </li>
                 </ul>
               </div>
@@ -134,7 +136,7 @@ const Footer: React.FC = () => {
         <div className="copyright-area bg-white text-center">
           <div className="container">
             <p>
-              © <span>SixDouze</span> is designed by{" "}
+              © <span>SixDouze</span> Powered by innovation, designed by {" "}
               <a href="https://cherni.com/" target="_blank">
                 Ghaith Cherni
               </a>
