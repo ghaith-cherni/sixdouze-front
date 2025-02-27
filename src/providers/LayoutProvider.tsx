@@ -2,10 +2,11 @@
 
 import React, { useState, ReactNode } from "react";
 import { usePathname } from "next/navigation";
-import LeftSidebarMenu from "@/components/Layout/LeftSidebarMenu";
 import TopNavbar from "./../components/Layout/TopNavbar/index";
 import Footer from "@/components/Layout/Footer";
 import ControlPanel from "@/components/Layout/ControlPanel";
+import LeftSidebarMenu from "@/components/Layout/LeftSidebarMenu";
+
 
 interface LayoutProviderProps {
   children: ReactNode;
@@ -27,44 +28,26 @@ const LayoutProvider: React.FC<LayoutProviderProps> = ({ children }) => {
     "/authentication/confirm-email/",
     "/authentication/lock-screen/",
     "/authentication/logout/",
-    "/coming-soon/",
     "/",
-    "/front-pages/features/",
-    "/front-pages/team/",
-    "/front-pages/faq/",
     "/front-pages/contact/",
   ].includes(pathname);
 
   return (
     <>
-      <div className={`main-wrapper-content ${active ? "active" : ""}`}>
+      <div>
         {!isAuthPage && (
           <>
             <TopNavbar toggleActive={toggleActive} />
-
-            <LeftSidebarMenu toggleActive={toggleActive} />
           </>
         )}
 
-        <div className="main-content">
+        <div  >
           {children}
 
           {!isAuthPage && <Footer />}
         </div>
       </div>
 
-      <div
-        style={{
-          position: "fixed",
-          bottom: "15px",
-          right: "15px",
-          zIndex: "-5",
-          opacity: 0,
-          visibility: "hidden",
-        }}
-      >
-        <ControlPanel />
-      </div>
     </>
   );
 };

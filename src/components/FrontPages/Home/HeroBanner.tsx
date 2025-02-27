@@ -110,7 +110,7 @@ const HeroBanner: React.FC = () => {
             spacing={2}
             columnSpacing={{ xs: 1, sm: 2, md: 2, lg: 3 }}
           >
-            <Grid item xs={12} md={12} lg={12} xl={3}>
+            <Grid item xs={12} md={12} lg={12} xl={3} >
               <MultipleSelect
                 selectedTreatments={selectedTreatments}
                 setSelectedTreatments={setSelectedTreatments}
